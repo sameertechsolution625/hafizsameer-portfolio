@@ -210,6 +210,8 @@ header {
 }
 
 .logo {
+  background: none;
+  mix-blend-mode: lighten;
   width: 60px;
   height: 60px;
   object-fit: contain;
@@ -346,6 +348,7 @@ nav ul li a:hover {
   color: #084298;
   text-decoration: underline;
 }
+
 
 
 
