@@ -415,6 +415,31 @@ nav ul li a:hover {
   background: #005fcc;
   transform: scale(1.05);
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-text h1 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.logo-text .tagline {
+  margin: 2px 0 0;
+  font-size: 14px;
+  color: #dcdcdc;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
 
 
 
