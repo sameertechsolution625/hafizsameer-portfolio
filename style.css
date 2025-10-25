@@ -348,6 +348,75 @@ nav ul li a:hover {
   color: #084298;
   text-decoration: underline;
 }
+#about {
+  padding: 80px 10%;
+  background: #f8f9fa;
+  color: #333;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-img {
+  width: 280px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h3 {
+  color: #0078ff;
+  margin-bottom: 15px;
+}
+
+.about-details h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.about-details ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.about-details ul li {
+  margin: 5px 0;
+  padding-left: 10px;
+  border-left: 3px solid #0078ff;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers all skill boxes */
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skills span {
+  background: #0078ff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.skills span:hover {
+  background: #005fcc;
+  transform: scale(1.05);
+}
+
+
 
 
 
